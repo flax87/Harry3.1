@@ -3,6 +3,8 @@
  *
  * 01.06.2020
  *
+ *Modul 1 task 2
+ *
  *      1.  Find in the net and download a text version of a novel about Harry Potter.  For instance,  "Harry Potter and the Sorcerer's Stone".
         2. Split the novel into an array of words.
         3. Clean the words from a punctuation signs.
