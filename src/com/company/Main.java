@@ -23,13 +23,14 @@ public class Main {
 
             public static void main(String[] args) throws IOException {
 
-                String Harry = new String(Files.readAllBytes(Paths.get("C:\\Users\\Flax\\Desktop\\harry.txt")));    //Показуєм шлях до тексту
+                String Harry = new String(Files.readAllBytes(Paths.get("C:\\Users\\Flax\\Desktop\\harry.txt")));    
+                        //Показуєм шлях до тексту
 
 
 
-                String harryCleaned = Harry.replaceAll("[^a-zA-Z0-9 ]", "");                             //Очищаємо Harry від лишніх символів
-                String[] harryWords = harryCleaned.split(" ");                                                     //Розділяє рядок по пробілу "space"
-                String[] harryLines = Harry.split("\\n");                                                          //Розділяє рядок по \n "Enter"
+                String harryCleaned = Harry.replaceAll("[^a-zA-Z0-9 ]", "");                    //Очищаємо Harry від лишніх символів
+                String[] harryWords = harryCleaned.split(" ");                                    //Розділяє рядок по пробілу "space"
+                String[] harryLines = Harry.split("\\n");                                          //Розділяє рядок по \n "Enter"
 
 
                 //------------------------------------------------------------------------------------------------
